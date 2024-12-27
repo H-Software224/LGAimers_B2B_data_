@@ -24,5 +24,6 @@
 + 정확도(Accuracy)
 + 정밀도(Precision)
 + 재현율(Recall)
-+ F1-score
++ F1-score <br>
+결과 image <br>
 ![image](./image/result.jpg)
