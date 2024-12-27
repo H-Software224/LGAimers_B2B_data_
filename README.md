@@ -6,6 +6,7 @@ LGAimers B2B Data analysis with MQL
 1. 데이터를 통해서 EDA 기법을 이용하여서 여러 그래프들을 데이터로 시각화하였습니다.<br>
 ![image](https://github.com/user-attachments/assets/577ba17c-2d77-46b5-bc86-a68c4aed01a9)
 2. 서로 다른 데이터들의 attribute 요소들을 연관-독립관계에 대해서 측정을 하였습니다.
+![image](./image/heatmap.jpg)
 3. 종속변수와 연관되는 요소를 제외한 서로 관련이 없는 attribute 요소들을 제거 한 다음, 주어진 attribute의 정의의 특성을 이용하여서 attribute을 새로 생성하거나, 대체를 하였습니다.
 4. 대체한 attribute인 경우 데이터 타입에 따라서 결측치를 대체합니다.
    + attribute의 값이 문자열이라면, 문자열에 대한 최빈값(문자열)을 이용하여서 대체합니다.
@@ -13,4 +14,5 @@ LGAimers B2B Data analysis with MQL
      - 만약 표준편차의 값이 크면 각 표본의 중앙값으로 대체합니다.
      - 표준편차의 값이 작으면 각 표본의 평균으로 대체합니다.
 5. 결측치를 대체한 후에는 분류모델인 decisiontree 모델을 이용하여서 classifcation으로 학습 및 예측합니다.
-6. 그 결과 결과값에 대해서 label로 정합니다.
+6. 그 결과 결과값에 대해서 평가하며, label로 정합니다.
+![image](./image/result.jpg)
